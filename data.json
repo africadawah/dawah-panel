@@ -61,6 +61,18 @@
  ],
  "platforms": [
   {
+   "id": "youtube",
+   "name": "YouTube (التعليقات)",
+   "access": "بحساب الجمعية",
+   "active": true
+  },
+  {
+   "id": "x",
+   "name": "X",
+   "access": "بحساب الجمعية",
+   "active": true
+  },
+  {
    "id": "forums",
    "name": "المنتديات ومواقع الأسئلة",
    "access": "مفتوح",
@@ -70,19 +82,19 @@
    "id": "facebook",
    "name": "Facebook",
    "access": "بحساب الجمعية",
-   "active": false
+   "active": true
   },
   {
    "id": "instagram",
    "name": "Instagram",
    "access": "بحساب الجمعية",
-   "active": false
+   "active": true
   },
   {
    "id": "tiktok",
    "name": "TikTok",
    "access": "بحساب الجمعية",
-   "active": false
+   "active": true
   },
   {
    "id": "reddit",
@@ -277,10 +289,196 @@
    "url": "https://african.byenah.com/fr/content/4376",
    "topic": "تعريف عام بالإسلام",
    "source": "african.byenah.com"
+  },
+  {
+   "lang": "en",
+   "title": "I Am a Muslim",
+   "ar": "أنا مسلم",
+   "url": "https://african.byenah.com/en/content/4184",
+   "topic": "حياة المسلم والتوبة",
+   "source": "african.byenah.com"
+  },
+  {
+   "lang": "pt",
+   "title": "Eu sou muçulmano (byenah)",
+   "ar": "أنا مسلم",
+   "url": "https://african.byenah.com/pt/content/7010",
+   "topic": "حياة المسلم",
+   "source": "african.byenah.com"
+  },
+  {
+   "lang": "pt",
+   "title": "Manual útil para o muçulmano (byenah)",
+   "ar": "المختصر المفيد للمسلم",
+   "url": "https://african.byenah.com/pt/content/5185",
+   "topic": "أساسيات المسلم الجديد",
+   "source": "african.byenah.com"
   }
  ],
- "weeks": [],
- "items": [],
+ "weeks": [
+  {
+   "id": "2026-10-27",
+   "label": "أسبوع 27 أكتوبر 2026",
+   "excluded": "تعليقات عدائية أو قديمة جدًا، وسؤال فقهي يحتاج مختصًا (الوشم)، ونتائج X الجدلية والسياسية",
+   "topics": [
+    "كيف أصبح مسلمًا",
+    "المسلم الجديد",
+    "المسيح في الإسلام"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": true,
+   "id": "yt-en-001",
+   "lang": "en",
+   "question": "I want to become a muslim",
+   "question_ar": "أريد أن أصبح مسلمًا",
+   "url": "https://www.youtube.com/watch?v=pRVHGIT2DwQ&lc=UgzFPY5nbt21t1sOFZN4AaABAg",
+   "topic": "كيف أصبح مسلمًا",
+   "book": "What A Muslim Must Know",
+   "reply": "Welcome! Becoming a Muslim is simple: you sincerely believe and say the testimony of faith: “I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.” You can say it anywhere, and then learn step by step, starting with prayer. This short free book explains what every new Muslim needs to know: https://african.byenah.com/en/content/5516 . If you would like someone to guide you personally and for free, message our team on WhatsApp: +966 56 168 0733.",
+   "reply_ar": "مرحبًا بك! الدخول في الإسلام سهل: أن تؤمن صادقًا وتنطق بالشهادتين: «أشهد أن لا إله إلا الله، وأشهد أن محمدًا رسول الله». يمكنك قولها في أي مكان، ثم تتعلم خطوة خطوة بدءًا بالصلاة. وهذا الكتاب المجاني المختصر يشرح ما يحتاجه كل مسلم جديد (رابط «ما لا يسع المسلم جهله»). وإن أردت من يرشدك شخصيًا ومجانًا فراسل فريقنا على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": true,
+   "id": "yt-en-002",
+   "lang": "en",
+   "question": "I'm a Hindu but I love Islam, can anyone please guide me how I can learn more about Islam and then convert?",
+   "question_ar": "أنا هندوسي لكني أحب الإسلام، هل يرشدني أحد كيف أتعلم عنه أكثر ثم أدخل فيه؟",
+   "url": "https://www.youtube.com/watch?v=pRVHGIT2DwQ&lc=UgxGZoh9-B7RZHeO-0R4AaABAg",
+   "topic": "كيف أصبح مسلمًا",
+   "book": "A Brief Illustrated Guide To Understanding Islam",
+   "reply": "It is wonderful that you feel this way. The core of Islam is to worship the One God alone, the Creator of everything, as all the prophets taught. A good first step is this short illustrated guide, which explains the basics of Islam and the evidence for its truth: https://african.byenah.com/en/content/4391 . Whenever you are ready, becoming Muslim only requires believing and saying: “There is no god but Allah, and Muhammad is the Messenger of Allah.” If you would like to ask your questions to a person, our team answers for free on WhatsApp: +966 56 168 0733.",
+   "reply_ar": "جميل أن تشعر بهذا. جوهر الإسلام عبادة الله الواحد خالق كل شيء وحده، كما علّم كل الأنبياء. والخطوة الأولى الجيدة هذا الدليل المصوّر المختصر الذي يشرح أساسيات الإسلام وأدلة صدقه (رابط «الدليل المصور الموجز لفهم الإسلام»). ومتى كنت مستعدًا فالدخول في الإسلام لا يتطلب إلا الإيمان والنطق: «لا إله إلا الله، محمد رسول الله». وإن أردت أن تسأل شخصًا ففريقنا يجيب مجانًا على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": true,
+   "id": "yt-en-003",
+   "lang": "en",
+   "question": "I like it and I want to convert to Islam but there is no Muslim community in my city.",
+   "question_ar": "أحببته وأريد الدخول في الإسلام لكن لا يوجد مجتمع مسلم في مدينتي.",
+   "url": "https://www.youtube.com/watch?v=F-m6ZQzbn80&lc=Ugw_oi8HfBeP72aAzRV4AaABAg",
+   "topic": "كيف أصبح مسلمًا",
+   "book": "How to Perform Prayer",
+   "reply": "You do not need a mosque or a community to become Muslim: you can say the testimony of faith sincerely on your own, and it is valid. Many converts start alone and learn online. Start with prayer, step by step, using this illustrated guide: https://african.byenah.com/en/content/5236 . And you are not alone: our team can accompany you for free in your language on WhatsApp: +966 56 168 0733.",
+   "reply_ar": "لا تحتاج إلى مسجد أو مجتمع لتصبح مسلمًا: يمكنك نطق الشهادتين بصدق وحدك وهي صحيحة. وكثير من المسلمين الجدد بدؤوا وحدهم وتعلموا عبر الإنترنت. ابدأ بالصلاة خطوة خطوة بهذا الدليل المصوّر (رابط «كيفية الصلاة»). ولست وحدك: فريقنا يرافقك مجانًا بلغتك على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": false,
+   "id": "yt-en-004",
+   "lang": "en",
+   "question": "Do you think Allah would accept me even after my dodgy past?",
+   "question_ar": "هل تظن أن الله يقبلني رغم ماضيّ السيئ؟",
+   "url": "https://www.youtube.com/watch?v=F-m6ZQzbn80&lc=UgyBxYqCxj-xTYXm2LJ4AaABAg",
+   "topic": "التوبة والدخول في الإسلام",
+   "book": "I Am a Muslim",
+   "reply": "Yes. Allah says in the Qur'an: “Say, O My servants who have transgressed against themselves, do not despair of the mercy of Allah. Indeed, Allah forgives all sins.” (39:53). The Prophet ﷺ also taught that entering Islam wipes away everything that came before it. Whatever your past, the door is open, and you start with a clean page. This short book describes the life of a Muslim, including repentance: https://african.byenah.com/en/content/4184",
+   "reply_ar": "نعم. قال الله تعالى: ﴿قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا﴾ [الزمر: 53]. وعلّم النبي ﷺ أن الإسلام يهدم ما كان قبله. فمهما كان ماضيك فالباب مفتوح وتبدأ صفحة بيضاء. وهذا الكتاب المختصر يصف حياة المسلم ومنها التوبة (رابط «أنا مسلم»)."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": false,
+   "id": "yt-en-005",
+   "lang": "en",
+   "question": "I have reverted to Islam 15 days ago. I'm over 60 and English.",
+   "question_ar": "دخلت الإسلام قبل 15 يومًا، عمري فوق الستين وأنا إنجليزي.",
+   "url": "https://www.youtube.com/watch?v=pRVHGIT2DwQ&lc=Ugy25V7bRXKnKFBrq4x4AaABAg",
+   "topic": "المسلم الجديد",
+   "book": "What A Muslim Must Know",
+   "reply": "Welcome to Islam, brother, and congratulations! It is never too late: the best of deeds are those done consistently, even if small. Take it one step at a time, starting with the five prayers. This short book covers the essentials of belief and worship for a new Muslim: https://african.byenah.com/en/content/5516 . If you ever need help or have questions, our team is happy to support you for free on WhatsApp: +966 56 168 0733.",
+   "reply_ar": "مرحبًا بك في الإسلام يا أخي ومبارك! لم يفت الأوان أبدًا، وأحب الأعمال إلى الله أدومها وإن قلّ. تدرّج خطوة خطوة بدءًا بالصلوات الخمس. وهذا الكتاب المختصر يجمع أساسيات العقيدة والعبادة للمسلم الجديد (رابط «ما لا يسع المسلم جهله»). وإن احتجت مساعدة أو كانت لديك أسئلة ففريقنا يسعده دعمك مجانًا على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": false,
+   "id": "yt-en-006",
+   "lang": "en",
+   "question": "I was born Christian … ever since then I always believed Jesus and God were different.",
+   "question_ar": "وُلدت مسيحيًا… ومنذ ذلك الحين أؤمن أن عيسى غير الله.",
+   "url": "https://www.youtube.com/watch?v=pRVHGIT2DwQ&lc=UgxajJrFVO-F4qDQnDN4AaABAg",
+   "topic": "المسيح في الإسلام",
+   "book": "Is Jesus God?",
+   "reply": "What your grandmother said is very close to what Muslims believe: Jesus (peace be upon him) is a great prophet and the Messiah, sent by the One God, but he is not God. In the Gospels he himself prays to God and calls Him “my God”. If you would like to explore this question further, this book gathers evidence from the Bible, reason and history: https://african.byenah.com/en/content/7383",
+   "reply_ar": "ما قالته جدتك قريب جدًا مما يؤمن به المسلمون: عيسى عليه السلام نبي عظيم والمسيح، أرسله الإله الواحد، لكنه ليس الله. وفي الأناجيل نفسها يصلّي هو لله ويدعوه «إلهي». وإن أحببت التعمق في هذه المسألة فهذا الكتاب يجمع أدلة من الكتاب المقدس والعقل والتاريخ (رابط «هل المسيح رب؟»)."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": true,
+   "id": "yt-fr-001",
+   "lang": "fr",
+   "question": "Je ne suis pas musulman mais j'adore vos paroles… J'ai 3 millions de questions sur l'islam, à qui puis-je m'adresser ?",
+   "question_ar": "لست مسلمًا لكني أحب كلامكم… لدي ثلاثة ملايين سؤال عن الإسلام، لمن أتوجه؟",
+   "url": "https://www.youtube.com/watch?v=D8L2wiH68uw&lc=Ugx8hVmIFhD3VSCzqNR4AaABAg",
+   "topic": "تعريف عام بالإسلام",
+   "book": "Petit guide illustré pour comprendre l'Islam",
+   "reply": "Vos questions sont les bienvenues, toutes ! Pour commencer, ce petit guide illustré répond aux questions les plus fréquentes sur l'islam et ses fondements : https://african.byenah.com/fr/content/4376 . Et pour poser vos questions directement à une personne, gratuitement et sans engagement, notre équipe vous répond sur WhatsApp : +966 56 168 0733.",
+   "reply_ar": "أسئلتك مرحّب بها كلها! وللبداية هذا الدليل المصوّر يجيب عن أكثر الأسئلة شيوعًا عن الإسلام وأصوله (رابط «الدليل المصور الموجز لفهم الإسلام»). ولطرح أسئلتك على شخص مباشرة، مجانًا ودون أي التزام، يجيبك فريقنا على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": false,
+   "id": "yt-fr-002",
+   "lang": "fr",
+   "question": "Je suis belge et je ne sais pas où je pourrais apprendre l'arabe… et souhaite changer de prénom.",
+   "question_ar": "أنا بلجيكي ولا أعرف أين أتعلم العربية… وأرغب في تغيير اسمي.",
+   "url": "https://www.youtube.com/watch?v=D8L2wiH68uw&lc=UgxhiQvAGt7O9HTHNdV4AaABAg",
+   "topic": "المسلم الجديد",
+   "book": "Précis utile pour le nouveau musulman",
+   "reply": "Bienvenue ! Quelques repères : changer de prénom n'est pas obligatoire en islam, sauf si son sens est contraire à la foi ; votre prénom actuel convient très bien. L'arabe s'apprend progressivement : commencez par la Fatiha pour la prière. Pour les autres questions pratiques, l'imam d'une mosquée de votre région pourra vous conseiller. Ce guide pour le nouveau musulman explique l'essentiel : https://african.byenah.com/fr/content/5216 . Notre équipe peut aussi vous accompagner gratuitement sur WhatsApp : +966 56 168 0733.",
+   "reply_ar": "مرحبًا بك! بعض المعالم: تغيير الاسم ليس واجبًا في الإسلام إلا إذا كان معناه مخالفًا للعقيدة، واسمك الحالي مناسب تمامًا. والعربية تُتعلم تدريجيًا: ابدأ بالفاتحة للصلاة. ولبقية المسائل العملية يمكن لإمام مسجد في منطقتك أن ينصحك. وهذا الدليل للمسلم الجديد يشرح الأساسيات (رابط «المختصر المفيد للمسلم الجديد»). ويمكن لفريقنا مرافقتك مجانًا على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": true,
+   "id": "yt-pt-001",
+   "lang": "pt",
+   "question": "Eu estou pensando em me converter ao Islamismo. Estado de Goiás, Brasil.",
+   "question_ar": "أفكر في الدخول في الإسلام. ولاية غوياس، البرازيل.",
+   "url": "https://www.youtube.com/watch?v=9XJ1t3ThWDw&lc=Ugxos-Uoz4yuzvcLPn94AaABAg",
+   "topic": "كيف أصبح مسلمًا",
+   "book": "Eu sou muçulmano (byenah)",
+   "reply": "Que bom! Para se tornar muçulmano basta acreditar sinceramente e dizer: “Testemunho que não há divindade além de Allah e testemunho que Muhammad é o Mensageiro de Allah.” Depois, aprende-se aos poucos, começando pela oração. Este pequeno livro mostra o que o Islam ensina no dia a dia: https://african.byenah.com/pt/content/7010 . Se quiser conversar com alguém em português, gratuitamente, nossa equipe atende no WhatsApp: +966 56 168 0733.",
+   "reply_ar": "جميل! لتصبح مسلمًا يكفي أن تؤمن صادقًا وتقول: «أشهد أن لا إله إلا الله وأشهد أن محمدًا رسول الله». ثم تتعلم بالتدريج بدءًا بالصلاة. وهذا الكتاب الصغير يبيّن ما يعلّمه الإسلام في الحياة اليومية (رابط «أنا مسلم»). وإن أردت التحدث مع أحد بالبرتغالية مجانًا ففريقنا يجيب على واتساب."
+  },
+  {
+   "week": "2026-10-27",
+   "platform": "youtube",
+   "found": "2026-10-27",
+   "urgent": true,
+   "id": "yt-pt-002",
+   "lang": "pt",
+   "question": "Tenho vergonha e medo que não me aceitem e não tenham paciência para me ensinar…",
+   "question_ar": "أخجل وأخاف ألا يقبلوني وألا يصبروا على تعليمي…",
+   "url": "https://www.youtube.com/watch?v=9XJ1t3ThWDw&lc=UgzDPj1vOP9e5xCU1kF4AaABAg",
+   "topic": "المسلم الجديد",
+   "book": "Manual útil para o muçulmano (byenah)",
+   "reply": "Não tenha medo nem vergonha: no Islam ninguém precisa da aprovação de outra pessoa para ser aceito por Deus, e Ele recebe com amor quem se volta para Ele. Aprender aos poucos é normal; todos começamos do zero. Este manual explica o essencial da fé e da oração de forma simples: https://african.byenah.com/pt/content/5185 . E se quiser alguém com paciência para ensinar você, em português e gratuitamente, nossa equipe está no WhatsApp: +966 56 168 0733.",
+   "reply_ar": "لا تخافي ولا تخجلي: في الإسلام لا يحتاج أحد إلى موافقة أحد ليقبله الله، والله يستقبل بمحبة من يُقبل إليه. والتعلم بالتدريج أمر طبيعي، فكلنا بدأنا من الصفر. وهذا الدليل يشرح أساسيات الإيمان والصلاة ببساطة (رابط «المختصر المفيد للمسلم»). وإن أردت من يعلّمك بصبر بالبرتغالية مجانًا ففريقنا على واتساب."
+  }
+ ],
  "site": {
   "name": "مكتبة البيت الأفريقي",
   "url": "https://african.byenah.com/ar",
