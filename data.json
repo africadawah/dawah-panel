@@ -1,0 +1,489 @@
+{
+ "updated": "2026-10-26",
+ "client": "جمعية الدعوة والتعليم باللغات الأفريقية",
+ "languages": [
+  {
+   "code": "pt",
+   "name": "البرتغالية",
+   "native": "Português",
+   "active": true,
+   "books": true
+  },
+  {
+   "code": "fr",
+   "name": "الفرنسية",
+   "native": "Français",
+   "active": false,
+   "books": true
+  },
+  {
+   "code": "en",
+   "name": "الإنجليزية",
+   "native": "English",
+   "active": false,
+   "books": true
+  },
+  {
+   "code": "sw",
+   "name": "السواحيلية",
+   "native": "Kiswahili",
+   "active": false,
+   "books": true
+  },
+  {
+   "code": "ha",
+   "name": "الهوسا",
+   "native": "Hausa",
+   "active": false,
+   "books": true
+  },
+  {
+   "code": "am",
+   "name": "الأمهرية",
+   "native": "አማርኛ",
+   "active": false,
+   "books": true
+  },
+  {
+   "code": "om",
+   "name": "الأورومية",
+   "native": "Afaan Oromoo",
+   "active": false,
+   "books": true
+  },
+  {
+   "code": "yo",
+   "name": "اليوروبا",
+   "native": "Yorùbá",
+   "active": false,
+   "books": true
+  }
+ ],
+ "platforms": [
+  {
+   "id": "quora",
+   "name": "Quora",
+   "access": "مفتوح",
+   "active": true
+  },
+  {
+   "id": "forums",
+   "name": "المنتديات ومواقع الأسئلة",
+   "access": "مفتوح",
+   "active": true
+  },
+  {
+   "id": "facebook",
+   "name": "Facebook",
+   "access": "بحساب الجمعية",
+   "active": false
+  },
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "access": "بحساب الجمعية",
+   "active": false
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "access": "بحساب الجمعية",
+   "active": false
+  },
+  {
+   "id": "reddit",
+   "name": "Reddit",
+   "access": "غير متاح حاليًا",
+   "active": false
+  }
+ ],
+ "phrases": {
+  "pt": [
+   "O que os muçulmanos pensam de Jesus?",
+   "Como é ser muçulmano?",
+   "Em que os muçulmanos acreditam?",
+   "Como se converter ao Islam?",
+   "O que é o Ramadã?"
+  ],
+  "fr": [
+   "Que pensent les musulmans de Jésus ?",
+   "Comment devenir musulman ?",
+   "En quoi croient les musulmans ?",
+   "C'est quoi le Ramadan ?"
+  ],
+  "en": [
+   "What do Muslims believe about Jesus?",
+   "How do I become a Muslim?",
+   "What do Muslims believe?",
+   "What is Ramadan?"
+  ],
+  "sw": [
+   "Waislamu wanaamini nini kuhusu Yesu?",
+   "Uislamu ni nini?",
+   "Jinsi ya kuwa Mwislamu"
+  ],
+  "ha": [
+   "Menene Musulunci?",
+   "Yaya ake zama Musulmi?"
+  ],
+  "am": [
+   "እስልምና ምንድን ነው?",
+   "ሙስሊሞች ስለ ኢየሱስ ምን ያምናሉ?"
+  ],
+  "om": [
+   "Islaamni maali?",
+   "Akkamitti Muslima ta'uu danda'a?"
+  ],
+  "yo": [
+   "Kí ni ẹ̀sìn Islam?",
+   "Báwo ni mo ṣe lè di Mùsùlùmí?"
+  ]
+ },
+ "books": [
+  {
+   "lang": "pt",
+   "title": "Aquilo que o muçulmano não pode ignorar",
+   "ar": "ما لا يسع المسلم جهله",
+   "url": "https://africadawah.github.io/aquilo-que-o-muculmano-nao-pode-ignorar/",
+   "topic": "العقيدة والعبادات والمعاملات",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "O Islam: um breve guia",
+   "ar": "الإسلام: نبذة موجزة",
+   "url": "https://africadawah.github.io/o-islam-um-breve-guia/",
+   "topic": "تعريف عام بالإسلام",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "Eu sou muçulmano",
+   "ar": "أنا مسلم",
+   "url": "https://africadawah.github.io/eu-sou-muculmano/",
+   "topic": "حياة المسلم وأخلاقه",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "Meios eficazes para uma vida feliz",
+   "ar": "الوسائل المفيدة للحياة السعيدة",
+   "url": "https://africadawah.github.io/meios-eficazes-para-uma-vida-feliz/",
+   "topic": "السعادة والطمأنينة",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "Meu grande amor por Jesus me conduziu ao Islam",
+   "ar": "حبي العظيم للمسيح قادني إلى الإسلام",
+   "url": "https://africadawah.github.io/meu-grande-amor-por-jesus-me-conduziu-ao-islam/",
+   "topic": "قصة إسلام / المسيحية",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "É Jesus Deus?",
+   "ar": "هل المسيح رب؟",
+   "url": "https://africadawah.github.io/e-jesus-deus/",
+   "topic": "المسيح في الإسلام",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "Manual útil para o muçulmano",
+   "ar": "المختصر المفيد للمسلم",
+   "url": "https://africadawah.github.io/manual-util-para-o-muculmano/",
+   "topic": "العبادات وأحكامها",
+   "source": "africadawah.github.io"
+  },
+  {
+   "lang": "pt",
+   "title": "Seleção de Hadiths Proféticos",
+   "ar": "المنتقى من موسوعة الأحاديث النبوية",
+   "url": "https://africadawah.github.io/selecao-de-hadiths-profeticos/",
+   "topic": "الحديث النبوي",
+   "source": "africadawah.github.io"
+  }
+ ],
+ "weeks": [
+  {
+   "id": "2026-10-26",
+   "label": "أسبوع 26 أكتوبر 2026",
+   "excluded": "عدة أسئلة عن الجهاد والعبودية (عدائية أو تحتاج مختصًا)",
+   "topics": [
+    "المسيح في الإسلام",
+    "الفرق بين الإسلام والمسيحية",
+    "الحياة اليومية للمسلم"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "pt-001",
+   "week": "2026-10-26",
+   "lang": "pt",
+   "platform": "quora",
+   "found": "2026-10-26",
+   "question": "O que os muçulmanos pensam de Jesus Cristo?",
+   "question_ar": "ماذا يعتقد المسلمون في المسيح؟",
+   "url": "https://pt.quora.com/O-que-os-mu%C3%A7ulmanos-pensam-de-Jesus-Cristo",
+   "topic": "المسيح في الإسلام",
+   "book": "É Jesus Deus?",
+   "urgent": false,
+   "reply": "Os muçulmanos amam e respeitam Jesus (Isa), que a paz esteja com ele. Cremos que ele é um dos maiores profetas de Deus, que nasceu milagrosamente da Virgem Maria, que realizou milagres com a permissão de Deus e que voltará antes do Fim dos Tempos. Mas cremos que ele é um ser humano e mensageiro, não Deus nem filho de Deus. No Alcorão: «Dize: “Ele é Allah, Único. Allah é O Solicitado. Não gerou e não foi gerado. E não há ninguém igual a Ele.”» [112:1-4]. Se quiser aprofundar, este livro reúne trinta evidências da Bíblia, da lógica e da história: https://africadawah.github.io/e-jesus-deus/",
+   "reply_ar": "المسلمون يحبون عيسى عليه السلام ويوقّرونه. نؤمن أنه من أعظم أنبياء الله، وُلد بمعجزة من مريم العذراء، وأجرى المعجزات بإذن الله، وسينزل قبل آخر الزمان. لكننا نؤمن أنه بشر ورسول، وليس إلهًا ولا ابن إله. قال تعالى: ﴿قُلۡ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ ۝ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ۝ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ﴾. وإن أردت التعمق فهذا الكتاب يجمع ثلاثين دليلًا من الكتاب المقدس والعقل والتاريخ (رابط كتاب «هل المسيح رب؟»)."
+  },
+  {
+   "id": "pt-002",
+   "week": "2026-10-26",
+   "lang": "pt",
+   "platform": "quora",
+   "found": "2026-10-26",
+   "question": "O Deus da Bíblia é o mesma que o Deus dos muçulmanos?",
+   "question_ar": "هل إله الكتاب المقدس هو إله المسلمين؟",
+   "url": "https://pt.quora.com/O-Deus-da-B%C3%ADblia-%C3%A9-o-mesma-que-o-Deus-dos-mu%C3%A7ulmanos",
+   "topic": "الفرق بين الإسلام والمسيحية",
+   "book": "Meu grande amor por Jesus me conduziu ao Islam",
+   "urgent": false,
+   "reply": "Os muçulmanos adoram o mesmo Criador que enviou Abraão, Moisés e Jesus, que a paz esteja com eles. “Allah” é simplesmente a palavra árabe para Deus, e os cristãos que falam árabe também a usam nas suas Bíblias. A diferença está na forma como Deus é descrito: o Islam ensina que Ele é Um só, sem filho nem parceiro, e que Jesus foi um dos Seus grandes mensageiros. Este livro conta a história real de um cristão que amava profundamente Jesus e que, ao estudar esta questão, chegou ao Islam: https://africadawah.github.io/meu-grande-amor-por-jesus-me-conduziu-ao-islam/",
+   "reply_ar": "المسلمون يعبدون الخالق نفسه الذي أرسل إبراهيم وموسى وعيسى عليهم السلام. وكلمة «الله» هي ببساطة الكلمة العربية للإله، ويستعملها المسيحيون الناطقون بالعربية في أناجيلهم. والفرق في وصف الله: فالإسلام يعلّم أنه واحد لا ولد له ولا شريك، وأن عيسى من رسله العظام. وهذا الكتاب يروي القصة الحقيقية لمسيحي كان يحب عيسى حبًا عظيمًا، فلما درس هذه المسألة انتهى به ذلك إلى الإسلام (رابط كتاب «حبي العظيم للمسيح قادني إلى الإسلام»)."
+  },
+  {
+   "id": "pt-003",
+   "week": "2026-10-26",
+   "lang": "pt",
+   "platform": "quora",
+   "found": "2026-10-26",
+   "question": "Em que é que os muçulmanos acreditam?",
+   "question_ar": "بماذا يؤمن المسلمون؟",
+   "url": "https://pt.quora.com/Em-que-%C3%A9-que-os-mu%C3%A7ulmanos-acreditam",
+   "topic": "تعريف عام بالإسلام",
+   "book": "O Islam: um breve guia",
+   "urgent": false,
+   "reply": "Os muçulmanos acreditam em seis pilares da fé: em Deus (Allah), Único e sem parceiros; nos Seus anjos; nos livros que Ele revelou, como a Torá, o Evangelho e o Alcorão; nos Seus mensageiros, de Noé e Abraão a Moisés, Jesus e Muhammad, que a paz esteja com todos eles; no Último Dia; e no destino. Na prática, a fé vive-se em cinco pilares: o testemunho de fé, as cinco orações diárias, o zakat (caridade obrigatória), o jejum do Ramadã e a peregrinação a Meca para quem puder. Este guia curto explica tudo isto com base no Alcorão e na Sunnah: https://africadawah.github.io/o-islam-um-breve-guia/",
+   "reply_ar": "يؤمن المسلمون بأركان الإيمان الستة: بالله الواحد الذي لا شريك له، وبملائكته، وبالكتب التي أنزلها كالتوراة والإنجيل والقرآن، وبرسله من نوح وإبراهيم إلى موسى وعيسى ومحمد عليهم الصلاة والسلام، وباليوم الآخر، وبالقدر. ويُعاش هذا الإيمان عمليًا في أركان الإسلام الخمسة: الشهادتان، والصلوات الخمس، والزكاة، وصوم رمضان، وحج البيت لمن استطاع. وهذا الدليل المختصر يشرح ذلك كله من القرآن والسنة (رابط كتاب «الإسلام: نبذة موجزة»)."
+  },
+  {
+   "id": "pt-004",
+   "week": "2026-10-26",
+   "lang": "pt",
+   "platform": "quora",
+   "found": "2026-10-26",
+   "question": "Como é ser um muçulmano?",
+   "question_ar": "كيف يكون المرء مسلمًا؟",
+   "url": "https://pt.quora.com/Como-%C3%A9-ser-um-mu%C3%A7ulmano",
+   "topic": "الحياة اليومية للمسلم",
+   "book": "Eu sou muçulmano",
+   "urgent": false,
+   "reply": "Ser muçulmano é viver com a consciência de que tudo o que fazemos pode ser um ato de adoração a Deus. As cinco orações diárias dão ritmo ao dia e paz ao coração; os pais, a família e os vizinhos têm direitos que devemos respeitar; a honestidade, a modéstia e a generosidade fazem parte da fé. E quando erramos, a porta do arrependimento está sempre aberta. Este pequeno livro, escrito na primeira pessoa, mostra o que o Islam ensina a um muçulmano no dia a dia: https://africadawah.github.io/eu-sou-muculmano/",
+   "reply_ar": "أن تكون مسلمًا يعني أن تعيش مستحضرًا أن كل ما تفعله يمكن أن يكون عبادة لله. فالصلوات الخمس تنظّم اليوم وتمنح القلب السكينة، وللوالدين والأهل والجيران حقوق علينا رعايتها، والصدق والحياء والكرم من الإيمان. وإذا أخطأنا فباب التوبة مفتوح دائمًا. وهذا الكتاب الصغير المكتوب بصيغة المتكلم يبيّن ما يعلّمه الإسلام للمسلم في حياته اليومية (رابط كتاب «أنا مسلم»)."
+  },
+  {
+   "id": "pt-005",
+   "week": "2026-10-26",
+   "lang": "pt",
+   "platform": "quora",
+   "found": "2026-10-26",
+   "question": "O que você precisa fazer em um Ramadã islâmico?",
+   "question_ar": "ماذا عليك أن تفعل في رمضان؟",
+   "url": "https://pt.quora.com/O-que-voc%C3%AA-precisa-fazer-em-um-Ramad%C3%A3-isl%C3%A2mico",
+   "topic": "العبادات",
+   "book": "Manual útil para o muçulmano",
+   "urgent": false,
+   "reply": "No Ramadã, o muçulmano adulto e saudável jejua todos os dias desde o amanhecer até o pôr do sol, sem comer, beber nem ter relações conjugais. Os doentes, os viajantes e outros com dificuldade têm dispensas. Mas o Ramadã é mais do que deixar a comida: é um mês para ler mais o Alcorão, rezar mais à noite, dar caridade, controlar a língua e o temperamento e aproximar-se de Deus. Termina com a festa do Eid al-Fitr e o zakat al-fitr, uma caridade para os pobres. Este manual explica o jejum e os outros fundamentos da prática islâmica: https://africadawah.github.io/manual-util-para-o-muculmano/",
+   "reply_ar": "في رمضان يصوم المسلم البالغ الصحيح كل يوم من الفجر إلى غروب الشمس، فيمسك عن الأكل والشرب والجماع. وللمريض والمسافر وأصحاب الأعذار رخص. لكن رمضان أكثر من ترك الطعام: هو شهر للإكثار من قراءة القرآن وقيام الليل والصدقة وحفظ اللسان والغضب والتقرب إلى الله. ويُختم بعيد الفطر وزكاة الفطر للفقراء. وهذا الدليل يشرح الصيام وبقية أصول العبادة في الإسلام (رابط كتاب «المختصر المفيد للمسلم»)."
+  }
+ ],
+ "site": {
+  "name": "مكتبة البيت الأفريقي",
+  "url": "https://african.byenah.com/ar",
+  "contents": "https://african.byenah.com/{code}/contents",
+  "languages": [
+   {
+    "code": "ar",
+    "name": "عربي",
+    "native": "العربية"
+   },
+   {
+    "code": "en",
+    "name": "إنجليزي",
+    "native": "English"
+   },
+   {
+    "code": "pt",
+    "name": "برتغالي",
+    "native": "Português"
+   },
+   {
+    "code": "fr",
+    "name": "فرنسي",
+    "native": "Français"
+   },
+   {
+    "code": "sw",
+    "name": "سواحيلي",
+    "native": "Kiswahili"
+   },
+   {
+    "code": "ha",
+    "name": "هوسا",
+    "native": "Hausa"
+   },
+   {
+    "code": "am",
+    "name": "أمهري",
+    "native": "አማርኛ"
+   },
+   {
+    "code": "om",
+    "name": "أورومو",
+    "native": "Afaan Oromoo"
+   },
+   {
+    "code": "yo",
+    "name": "يوربا",
+    "native": "Èdè Yorùbá"
+   },
+   {
+    "code": "so",
+    "name": "صومالي",
+    "native": "Soomaali"
+   },
+   {
+    "code": "ff",
+    "name": "فولاني",
+    "native": "Pulaar"
+   },
+   {
+    "code": "zu",
+    "name": "زولو",
+    "native": "isiZulu"
+   },
+   {
+    "code": "af",
+    "name": "أفريقاني",
+    "native": "Afrikaans"
+   },
+   {
+    "code": "ti",
+    "name": "تجريني",
+    "native": "ትግርኛ"
+   },
+   {
+    "code": "lg",
+    "name": "لوغندي",
+    "native": "Luganda"
+   },
+   {
+    "code": "rw",
+    "name": "كينيارواندا",
+    "native": "Kinyarwanda"
+   },
+   {
+    "code": "rn",
+    "name": "كيروندي",
+    "native": "Ikirundi"
+   },
+   {
+    "code": "ln",
+    "name": "لينغالا",
+    "native": "Lingala"
+   },
+   {
+    "code": "ny",
+    "name": "شيشيوا",
+    "native": "Chichewa"
+   },
+   {
+    "code": "st",
+    "name": "سوتي",
+    "native": "Sesotho"
+   },
+   {
+    "code": "mg",
+    "name": "ملاغاشي",
+    "native": "Malagasy"
+   },
+   {
+    "code": "wo",
+    "name": "ولوف",
+    "native": "Wolof"
+   },
+   {
+    "code": "bm",
+    "name": "بامبارا",
+    "native": "Bamanankan"
+   },
+   {
+    "code": "mnk",
+    "name": "مندنكا",
+    "native": "Mandinka"
+   },
+   {
+    "code": "snk",
+    "name": "سوننكي",
+    "native": "Soninke"
+   },
+   {
+    "code": "dyo",
+    "name": "جولا",
+    "native": "Jóola"
+   },
+   {
+    "code": "mos",
+    "name": "موري",
+    "native": "Mõõré"
+   },
+   {
+    "code": "dag",
+    "name": "دغباني",
+    "native": "Dagbani"
+   },
+   {
+    "code": "ak",
+    "name": "أكاني",
+    "native": "Akan"
+   },
+   {
+    "code": "sg",
+    "name": "سانجو",
+    "native": "Sängö"
+   },
+   {
+    "code": "aa",
+    "name": "عفري",
+    "native": "Afaraf"
+   },
+   {
+    "code": "kr",
+    "name": "كانوري",
+    "native": "Kanuri"
+   },
+   {
+    "code": "bas",
+    "name": "باسا",
+    "native": "Bassa"
+   },
+   {
+    "code": "yao",
+    "name": "ياؤو",
+    "native": "Yao"
+   },
+   {
+    "code": "ber",
+    "name": "أمازيغي",
+    "native": "Tamazight"
+   },
+   {
+    "code": "swb",
+    "name": "قمري",
+    "native": "Shikomori"
+   },
+   {
+    "code": "nqo",
+    "name": "أنكو",
+    "native": "N'Ko"
+   }
+  ]
+ }
+}
