@@ -293,12 +293,12 @@ function vReport(){
 }
 function vLibrary(){
   const S2=D.site, ours=new Set(D.languages.map(l=>l.code));
-  return head("المكتبة","مصدران تربط بهما المهارة الأسئلة: مكتبة البيت الأفريقي بأكثر من 35 لغة أفريقية، والملخصات البرتغالية. المهارة تبحث في المكتبة بلغة السؤال وتختار المادة المناسبة، دون تنزيل الكتب.",`<a class="btn pri" href="${esc(S2.url)}" target="_blank" rel="noopener">افتح مكتبة البيت الأفريقي ↗</a>`)+
+  return head("المكتبة","مصدران تربط بهما المهارة الأسئلة: مكتبة البيت الأفريقي بأكثر من 35 لغة، والملخصات البرتغالية. المهارة تبحث في المكتبة بلغة السؤال وتختار المادة المناسبة، دون تنزيل الكتب.",`<a class="btn pri" href="${esc(S2.url)}" target="_blank" rel="noopener">افتح مكتبة البيت الأفريقي ↗</a>`)+
   `<div class="panel" style="margin-bottom:16px"><h3>${esc(S2.name)} · ${S2.languages.length} لغة</h3>
    <p style="margin:0 0 10px;color:var(--muted);font-size:14px">اللغات المميّزة هي لغات الخدمة. اضغط أي لغة لفتح موادها.</p>
    <div class="langs">${S2.languages.map(l=>`<a class="lg ${ours.has(l.code)?"on":""}" href="${esc(S2.contents.replace("{code}",l.code))}" target="_blank" rel="noopener"><b>${esc(l.name)}</b><span class="ltr">${esc(l.native)}</span></a>`).join("")}</div></div>
-  <div class="panel"><h3>الملخصات البرتغالية (africadawah.github.io)</h3><div class="tw"><table><thead><tr><th>الكتاب</th><th>العنوان العربي</th><th>يُستخدم لأسئلة</th><th>ردود</th></tr></thead><tbody>
-  ${D.books.map(b=>`<tr><td class="ltr"><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a></td><td>${esc(b.ar)}</td><td>${esc(b.topic)}</td><td class="num">${D.items.filter(i=>i.book===b.title).length}</td></tr>`).join("")}</tbody></table></div></div>`;
+  <div class="panel"><h3>الكتب المربوطة بالردود</h3><div class="tw"><table><thead><tr><th>الكتاب</th><th>العنوان العربي</th><th>اللغة</th><th>المصدر</th><th>يُستخدم لأسئلة</th><th>ردود</th></tr></thead><tbody>
+  ${D.books.map(b=>`<tr><td class="ltr"><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a></td><td>${esc(b.ar)}</td><td>${esc(langName(b.lang))}</td><td class="ltr">${esc(b.source||"")}</td><td>${esc(b.topic)}</td><td class="num">${D.items.filter(i=>i.book===b.title).length}</td></tr>`).join("")}</tbody></table></div></div>`;
 }
 function vSettings(){
   return head("الإعدادات","اللغات والمنصات وعبارات البحث التي تعمل بها المهارة، وأدوات حفظ قرارات المراجعة.")+
