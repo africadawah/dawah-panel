@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>لوحة الباحث الدعوي</title>
-<link rel="icon" href="logo.png">
+<link rel="icon" href="logo.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Amiri:wght@400;700&display=swap">
 <style>
@@ -151,14 +151,14 @@ td.num{font-variant-numeric:tabular-nums}
 <body>
 <div class="app">
   <aside class="rail">
-    <div class="logo"><img src="logo.png" alt="البيت الأفريقي — HOME AFRICAN"></div>
-    <h1>لوحة الباحث الدعوي</h1>
+    <div class="logo"><img src="logo.webp" alt="الباحث الدعوي"></div>
+    <h1>لوحة التحكم</h1>
     <div class="sub">أسئلة الناس عن الإسلام ← ردّ من كتب الجمعية</div>
     <nav class="nav" id="nav"></nav>
     <div class="foot" id="foot"></div>
   </aside>
   <main>
-    <div class="mlogo"><img src="logo.png" alt="البيت الأفريقي"></div>
+    <div class="mlogo"><img src="logo.webp" alt="الباحث الدعوي"></div>
     <div id="view"><div class="empty">جارٍ تحميل البيانات…</div></div>
   </main>
 </div>
@@ -210,7 +210,7 @@ function bars(obj,total,nameFn){const e=Object.entries(obj).sort((a,b)=>b[1]-a[1
 function vHome(){
   const it=D.items, c=count(it,status), urgent=it.filter(isUrgent).length;
   const steps=[["البحث","وُجدت",it.length],["الفرز","مقبولة",it.filter(i=>status(i)!=="rejected").length],["الربط بالكتاب","مربوطة",it.filter(i=>i.book).length],["تجهيز الرد","مسودات",it.length],["المراجعة","معتمدة",(c.approved||0)+(c.published||0)],["النشر","منشورة",c.published||0]];
-  return head("الرئيسية",`ملخص عمل المهارة · ${esc(D.weeks.at(-1).label)}`,`<a class="btn pri" href="#queue">راجع الردود (${c.new||0})</a>`)+
+  return head("الرئيسية",`ملخص عمل المهارة · ${esc((D.weeks.at(-1)||{}).label||"لا توجد أسئلة بعد")}`,`<a class="btn pri" href="#queue">راجع الردود (${c.new||0})</a>`)+
   `<div class="kpis">
     <div class="kpi"><b>${it.length}</b><span>أسئلة مناسبة وُجدت</span></div>
     <div class="kpi"><b>${c.new||0}</b><span>بانتظار المراجعة</span></div>
@@ -279,6 +279,7 @@ function vAlerts(){
   (list.length?`<div class="items">${list.map(itemCard).join("")}</div>`:`<div class="empty">لا تنبيهات عاجلة هذا الأسبوع.<br>لتحويل سؤال إلى تنبيه، افتحه في «الأسئلة والردود» وفعّل «مهتم جادّ».</div>`);
 }
 function vReport(){
+  if(!D.weeks.length) return head("التقرير الأسبوعي",esc(D.client))+'<div class="empty">لا يوجد تقرير بعد. يظهر هنا بعد أول بحث أسبوعي.</div>';
   const wk=F.week||D.weeks.at(-1).id, w=D.weeks.find(x=>x.id===wk)||D.weeks.at(-1), it=D.items.filter(i=>i.week===w.id), c=count(it,status);
   const pub=it.filter(i=>status(i)==="published"), urgent=it.filter(isUrgent), bk=count(it,i=>i.book), topBook=Object.entries(bk).sort((a,b)=>b[1]-a[1])[0];
   const langs=[...new Set(it.map(i=>langName(i.lang)))].join("، "), plats=[...new Set(it.map(i=>platName(i.platform)))].join("، ");

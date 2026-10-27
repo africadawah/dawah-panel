@@ -61,12 +61,6 @@
  ],
  "platforms": [
   {
-   "id": "quora",
-   "name": "Quora",
-   "access": "مفتوح",
-   "active": true
-  },
-  {
    "id": "forums",
    "name": "المنتديات ومواقع الأسئلة",
    "access": "مفتوح",
@@ -93,7 +87,7 @@
   {
    "id": "reddit",
    "name": "Reddit",
-   "access": "غير متاح حاليًا",
+   "access": "روابط من محركات البحث (القراءة من أدواتنا محجوبة)",
    "active": false
   }
  ],
@@ -285,270 +279,8 @@
    "source": "african.byenah.com"
   }
  ],
- "weeks": [
-  {
-   "id": "2026-10-26",
-   "label": "أسبوع 26 أكتوبر 2026",
-   "excluded": "عدة أسئلة عن الجهاد والعبودية (عدائية أو تحتاج مختصًا)",
-   "topics": [
-    "المسيح في الإسلام",
-    "الفرق بين الإسلام والمسيحية",
-    "الحياة اليومية للمسلم"
-   ]
-  },
-  {
-   "id": "2026-10-27",
-   "label": "أسبوع 27 أكتوبر 2026",
-   "excluded": "أسئلة جدلية أو تحتاج فتوى مختص (مثل الاحتفال بالأعياد، والإسلام والإسلاموية)",
-   "topics": [
-    "كيف أصبح مسلمًا",
-    "المسيح في الإسلام",
-    "تعريف عام بالإسلام"
-   ]
-  }
- ],
- "items": [
-  {
-   "id": "pt-001",
-   "week": "2026-10-26",
-   "lang": "pt",
-   "platform": "quora",
-   "found": "2026-10-26",
-   "question": "O que os muçulmanos pensam de Jesus Cristo?",
-   "question_ar": "ماذا يعتقد المسلمون في المسيح؟",
-   "url": "https://pt.quora.com/O-que-os-mu%C3%A7ulmanos-pensam-de-Jesus-Cristo",
-   "topic": "المسيح في الإسلام",
-   "book": "É Jesus Deus?",
-   "urgent": false,
-   "reply": "Os muçulmanos amam e respeitam Jesus (Isa), que a paz esteja com ele. Cremos que ele é um dos maiores profetas de Deus, que nasceu milagrosamente da Virgem Maria, que realizou milagres com a permissão de Deus e que voltará antes do Fim dos Tempos. Mas cremos que ele é um ser humano e mensageiro, não Deus nem filho de Deus. No Alcorão: «Dize: “Ele é Allah, Único. Allah é O Solicitado. Não gerou e não foi gerado. E não há ninguém igual a Ele.”» [112:1-4]. Se quiser aprofundar, este livro reúne trinta evidências da Bíblia, da lógica e da história: https://africadawah.github.io/e-jesus-deus/",
-   "reply_ar": "المسلمون يحبون عيسى عليه السلام ويوقّرونه. نؤمن أنه من أعظم أنبياء الله، وُلد بمعجزة من مريم العذراء، وأجرى المعجزات بإذن الله، وسينزل قبل آخر الزمان. لكننا نؤمن أنه بشر ورسول، وليس إلهًا ولا ابن إله. قال تعالى: ﴿قُلۡ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ ۝ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ۝ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ﴾. وإن أردت التعمق فهذا الكتاب يجمع ثلاثين دليلًا من الكتاب المقدس والعقل والتاريخ (رابط كتاب «هل المسيح رب؟»)."
-  },
-  {
-   "id": "pt-002",
-   "week": "2026-10-26",
-   "lang": "pt",
-   "platform": "quora",
-   "found": "2026-10-26",
-   "question": "O Deus da Bíblia é o mesma que o Deus dos muçulmanos?",
-   "question_ar": "هل إله الكتاب المقدس هو إله المسلمين؟",
-   "url": "https://pt.quora.com/O-Deus-da-B%C3%ADblia-%C3%A9-o-mesma-que-o-Deus-dos-mu%C3%A7ulmanos",
-   "topic": "الفرق بين الإسلام والمسيحية",
-   "book": "Meu grande amor por Jesus me conduziu ao Islam",
-   "urgent": false,
-   "reply": "Os muçulmanos adoram o mesmo Criador que enviou Abraão, Moisés e Jesus, que a paz esteja com eles. “Allah” é simplesmente a palavra árabe para Deus, e os cristãos que falam árabe também a usam nas suas Bíblias. A diferença está na forma como Deus é descrito: o Islam ensina que Ele é Um só, sem filho nem parceiro, e que Jesus foi um dos Seus grandes mensageiros. Este livro conta a história real de um cristão que amava profundamente Jesus e que, ao estudar esta questão, chegou ao Islam: https://africadawah.github.io/meu-grande-amor-por-jesus-me-conduziu-ao-islam/",
-   "reply_ar": "المسلمون يعبدون الخالق نفسه الذي أرسل إبراهيم وموسى وعيسى عليهم السلام. وكلمة «الله» هي ببساطة الكلمة العربية للإله، ويستعملها المسيحيون الناطقون بالعربية في أناجيلهم. والفرق في وصف الله: فالإسلام يعلّم أنه واحد لا ولد له ولا شريك، وأن عيسى من رسله العظام. وهذا الكتاب يروي القصة الحقيقية لمسيحي كان يحب عيسى حبًا عظيمًا، فلما درس هذه المسألة انتهى به ذلك إلى الإسلام (رابط كتاب «حبي العظيم للمسيح قادني إلى الإسلام»)."
-  },
-  {
-   "id": "pt-003",
-   "week": "2026-10-26",
-   "lang": "pt",
-   "platform": "quora",
-   "found": "2026-10-26",
-   "question": "Em que é que os muçulmanos acreditam?",
-   "question_ar": "بماذا يؤمن المسلمون؟",
-   "url": "https://pt.quora.com/Em-que-%C3%A9-que-os-mu%C3%A7ulmanos-acreditam",
-   "topic": "تعريف عام بالإسلام",
-   "book": "O Islam: um breve guia",
-   "urgent": false,
-   "reply": "Os muçulmanos acreditam em seis pilares da fé: em Deus (Allah), Único e sem parceiros; nos Seus anjos; nos livros que Ele revelou, como a Torá, o Evangelho e o Alcorão; nos Seus mensageiros, de Noé e Abraão a Moisés, Jesus e Muhammad, que a paz esteja com todos eles; no Último Dia; e no destino. Na prática, a fé vive-se em cinco pilares: o testemunho de fé, as cinco orações diárias, o zakat (caridade obrigatória), o jejum do Ramadã e a peregrinação a Meca para quem puder. Este guia curto explica tudo isto com base no Alcorão e na Sunnah: https://africadawah.github.io/o-islam-um-breve-guia/",
-   "reply_ar": "يؤمن المسلمون بأركان الإيمان الستة: بالله الواحد الذي لا شريك له، وبملائكته، وبالكتب التي أنزلها كالتوراة والإنجيل والقرآن، وبرسله من نوح وإبراهيم إلى موسى وعيسى ومحمد عليهم الصلاة والسلام، وباليوم الآخر، وبالقدر. ويُعاش هذا الإيمان عمليًا في أركان الإسلام الخمسة: الشهادتان، والصلوات الخمس، والزكاة، وصوم رمضان، وحج البيت لمن استطاع. وهذا الدليل المختصر يشرح ذلك كله من القرآن والسنة (رابط كتاب «الإسلام: نبذة موجزة»)."
-  },
-  {
-   "id": "pt-004",
-   "week": "2026-10-26",
-   "lang": "pt",
-   "platform": "quora",
-   "found": "2026-10-26",
-   "question": "Como é ser um muçulmano?",
-   "question_ar": "كيف يكون المرء مسلمًا؟",
-   "url": "https://pt.quora.com/Como-%C3%A9-ser-um-mu%C3%A7ulmano",
-   "topic": "الحياة اليومية للمسلم",
-   "book": "Eu sou muçulmano",
-   "urgent": false,
-   "reply": "Ser muçulmano é viver com a consciência de que tudo o que fazemos pode ser um ato de adoração a Deus. As cinco orações diárias dão ritmo ao dia e paz ao coração; os pais, a família e os vizinhos têm direitos que devemos respeitar; a honestidade, a modéstia e a generosidade fazem parte da fé. E quando erramos, a porta do arrependimento está sempre aberta. Este pequeno livro, escrito na primeira pessoa, mostra o que o Islam ensina a um muçulmano no dia a dia: https://africadawah.github.io/eu-sou-muculmano/",
-   "reply_ar": "أن تكون مسلمًا يعني أن تعيش مستحضرًا أن كل ما تفعله يمكن أن يكون عبادة لله. فالصلوات الخمس تنظّم اليوم وتمنح القلب السكينة، وللوالدين والأهل والجيران حقوق علينا رعايتها، والصدق والحياء والكرم من الإيمان. وإذا أخطأنا فباب التوبة مفتوح دائمًا. وهذا الكتاب الصغير المكتوب بصيغة المتكلم يبيّن ما يعلّمه الإسلام للمسلم في حياته اليومية (رابط كتاب «أنا مسلم»)."
-  },
-  {
-   "id": "pt-005",
-   "week": "2026-10-26",
-   "lang": "pt",
-   "platform": "quora",
-   "found": "2026-10-26",
-   "question": "O que você precisa fazer em um Ramadã islâmico?",
-   "question_ar": "ماذا عليك أن تفعل في رمضان؟",
-   "url": "https://pt.quora.com/O-que-voc%C3%AA-precisa-fazer-em-um-Ramad%C3%A3-isl%C3%A2mico",
-   "topic": "العبادات",
-   "book": "Manual útil para o muçulmano",
-   "urgent": false,
-   "reply": "No Ramadã, o muçulmano adulto e saudável jejua todos os dias desde o amanhecer até o pôr do sol, sem comer, beber nem ter relações conjugais. Os doentes, os viajantes e outros com dificuldade têm dispensas. Mas o Ramadã é mais do que deixar a comida: é um mês para ler mais o Alcorão, rezar mais à noite, dar caridade, controlar a língua e o temperamento e aproximar-se de Deus. Termina com a festa do Eid al-Fitr e o zakat al-fitr, uma caridade para os pobres. Este manual explica o jejum e os outros fundamentos da prática islâmica: https://africadawah.github.io/manual-util-para-o-muculmano/",
-   "reply_ar": "في رمضان يصوم المسلم البالغ الصحيح كل يوم من الفجر إلى غروب الشمس، فيمسك عن الأكل والشرب والجماع. وللمريض والمسافر وأصحاب الأعذار رخص. لكن رمضان أكثر من ترك الطعام: هو شهر للإكثار من قراءة القرآن وقيام الليل والصدقة وحفظ اللسان والغضب والتقرب إلى الله. ويُختم بعيد الفطر وزكاة الفطر للفقراء. وهذا الدليل يشرح الصيام وبقية أصول العبادة في الإسلام (رابط كتاب «المختصر المفيد للمسلم»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "en-001",
-   "lang": "en",
-   "question": "How do I become a Muslim? What are the basic things I need to know?",
-   "question_ar": "كيف أصبح مسلمًا؟ وما الأساسيات التي يجب أن أعرفها؟",
-   "url": "https://www.quora.com/How-do-I-become-a-Muslim-What-are-the-basic-things-I-need-to-know",
-   "topic": "كيف أصبح مسلمًا",
-   "book": "What A Muslim Must Know",
-   "reply": "Becoming a Muslim is simple: you sincerely believe in, and say, the testimony of faith: “I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.” No ceremony or witness is required, though many people like to say it at a local mosque. After that, learn step by step: the six pillars of faith (belief in Allah, His angels, His books, His messengers, the Last Day and destiny) and the five pillars of Islam, starting with the five daily prayers. Take it gradually and ask questions. This short free book covers exactly what a new Muslim needs to know: https://african.byenah.com/en/content/5516",
-   "reply_ar": "الدخول في الإسلام سهل: أن تؤمن صادقًا بالشهادتين وتنطق بهما: «أشهد أن لا إله إلا الله، وأشهد أن محمدًا رسول الله». لا يُشترط احتفال ولا شهود، وإن كان كثيرون يحبون نطقها في مسجد قريب. ثم تعلّم خطوة خطوة: أركان الإيمان الستة (الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر) وأركان الإسلام الخمسة، بدءًا بالصلوات الخمس. تدرّج واسأل. وهذا الكتاب المجاني المختصر يغطي ما يحتاجه المسلم الجديد (رابط «ما لا يسع المسلم جهله»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "en-002",
-   "lang": "en",
-   "question": "What are the first steps for becoming a Muslim?",
-   "question_ar": "ما الخطوات الأولى لمن يريد أن يصبح مسلمًا؟",
-   "url": "https://www.quora.com/What-are-the-first-steps-for-becoming-a-Muslim",
-   "topic": "كيف أصبح مسلمًا",
-   "book": "Islam - A Brief Treatise on Islam",
-   "reply": "The first step is the testimony of faith, said with conviction: “There is no god but Allah, and Muhammad is the Messenger of Allah.” This means worshipping the One God alone, the same God who sent Abraham, Moses and Jesus, and following the final Prophet, Muhammad (peace be upon them all). Then: take a bath (ghusl) as a fresh start, learn how to pray and begin praying the five daily prayers, and keep learning about your faith at a pace you can manage. Any past sins are forgiven when you enter Islam. This concise book explains Islam clearly from the Qur’an and the Sunnah: https://african.byenah.com/en/content/4455",
-   "reply_ar": "الخطوة الأولى هي الشهادتان عن يقين: «لا إله إلا الله، محمد رسول الله». ومعناها عبادة الله الواحد وحده، الإله نفسه الذي أرسل إبراهيم وموسى وعيسى، واتباع خاتم الأنبياء محمد عليهم الصلاة والسلام. ثم: الاغتسال بداية جديدة، وتعلّم الصلاة والبدء بالصلوات الخمس، ومواصلة التعلم بقدر الطاقة. وما مضى من الذنوب يُغفر بالدخول في الإسلام. وهذا الكتاب المختصر يشرح الإسلام بوضوح من القرآن والسنة (رابط «الإسلام: نبذة موجزة»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": true,
-   "id": "en-003",
-   "lang": "en",
-   "question": "I want to convert to Islam. What should I begin with at home and study? I am serious here.",
-   "question_ar": "أريد أن أدخل الإسلام. بماذا أبدأ في البيت وماذا أدرس؟ أنا جادّ.",
-   "url": "https://www.quora.com/I-want-to-convert-to-Islam-What-should-I-begin-with-at-home-and-study-I-am-serious-here",
-   "topic": "كيف أصبح مسلمًا",
-   "book": "How to Perform Prayer",
-   "reply": "Welcome, and may Allah make it easy for you. Start with the testimony of faith (shahada): “I bear witness that there is no god but Allah, and that Muhammad is His Messenger,” said sincerely; you can say it at home. Then focus on one thing at a time: first learn how to make ablution (wudu) and pray, since prayer is the daily connection with Allah; this illustrated guide shows it step by step: https://african.byenah.com/en/content/5236 . Next, read a short introduction to the basics of belief. If you would like a person to guide you for free in your language, you can message our team on WhatsApp: +966 56 168 0733.",
-   "reply_ar": "مرحبًا بك، يسّر الله لك. ابدأ بالشهادتين: «أشهد أن لا إله إلا الله، وأن محمدًا رسول الله» عن صدق، ويمكنك قولها في بيتك. ثم ركّز على أمر واحد في كل مرة: تعلّم الوضوء والصلاة أولًا، فالصلاة هي الصلة اليومية بالله، وهذا الدليل المصوّر يشرحها خطوة خطوة (رابط «كيفية الصلاة»). بعدها اقرأ مقدمة قصيرة في أساسيات العقيدة. وإن أردت من يرشدك مجانًا بلغتك فراسل فريقنا على واتساب (رقم الجمعية)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": true,
-   "id": "en-004",
-   "lang": "en",
-   "question": "How can I become Muslim? I never believed in God, but I started reading the Quran and after 7 months I want to convert to Islam.",
-   "question_ar": "كيف أصبح مسلمًا؟ لم أكن أؤمن بالله، لكني بدأت قراءة القرآن وبعد 7 أشهر أريد الدخول في الإسلام.",
-   "url": "https://www.quora.com/How-can-I-become-Muslim-I-never-believed-in-God-but-I-started-reading-the-Quran-and-after-7-months-I-want-to-convert-to-Islam-and-become-a-Muslim",
-   "topic": "كيف أصبح مسلمًا",
-   "book": "A Brief Illustrated Guide To Understanding Islam",
-   "reply": "What a beautiful journey. To become Muslim you only need to believe and say the testimony of faith: “I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.” Everything else, such as prayer and the other practices, you can learn gradually after that. Since you came to Islam through the Qur’an, you may enjoy this illustrated guide, which explains the evidence for the Qur’an being from God and the basics of Islam: https://african.byenah.com/en/content/4391 . If you would like someone to answer your questions personally, our team is available on WhatsApp: +966 56 168 0733.",
-   "reply_ar": "ما أجملها من رحلة. لتصبح مسلمًا يكفي أن تؤمن بالشهادتين وتنطق بهما: «أشهد أن لا إله إلا الله، وأشهد أن محمدًا رسول الله». وما بعد ذلك من صلاة وعبادات تتعلمه بالتدريج. وبما أنك عرفت الإسلام من القرآن فقد يعجبك هذا الدليل المصوّر الذي يشرح أدلة كون القرآن من عند الله وأساسيات الإسلام (رابط «الدليل المصور الموجز لفهم الإسلام»). وإن أردت من يجيب أسئلتك شخصيًا ففريقنا متاح على واتساب (رقم الجمعية)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "en-005",
-   "lang": "en",
-   "question": "What do Muslims believe was the significance of Jesus?",
-   "question_ar": "ما مكانة المسيح عند المسلمين؟",
-   "url": "https://www.quora.com/What-do-Muslims-believe-was-the-significance-of-Jesus",
-   "topic": "المسيح في الإسلام",
-   "book": "The True Message of Jesus Christ",
-   "reply": "Jesus (peace be upon him) holds a very high place in Islam. Muslims believe he is one of the five greatest messengers, the Messiah, born miraculously to the Virgin Mary, who performed miracles by God’s permission and will return before the end of time. A Muslim who denies him is not a Muslim. His message, like that of every prophet, was to worship the One God alone. Islam differs from Christianity in holding that he was a human prophet, not God or the son of God. This book compares what the Bible and the Qur’an say about his message: https://african.byenah.com/en/content/4313",
-   "reply_ar": "لعيسى عليه السلام مكانة عالية جدًا في الإسلام. يؤمن المسلمون أنه من أولي العزم الخمسة من الرسل، وهو المسيح، وُلد بمعجزة من مريم العذراء، وأجرى المعجزات بإذن الله، وسينزل قبل آخر الزمان. ومن أنكره فليس بمسلم. ورسالته كرسالة كل نبي: عبادة الله الواحد وحده. ويختلف الإسلام عن المسيحية في أنه نبي بشر، لا إله ولا ابن إله. وهذا الكتاب يقارن ما يقوله الكتاب المقدس والقرآن عن رسالته (رابط «الرسالة الحقيقية للمسيح»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "en-006",
-   "lang": "en",
-   "question": "Do Muslims follow Jesus?",
-   "question_ar": "هل يتبع المسلمون المسيح؟",
-   "url": "https://www.quora.com/Do-Muslims-follow-Jesus",
-   "topic": "المسيح في الإسلام",
-   "book": "Is Jesus God?",
-   "reply": "In an important sense, yes. Muslims love and believe in Jesus (peace be upon him) as a mighty prophet and the Messiah, and they follow the core of what he taught: to worship the One God alone and keep His commandments. Muslims believe that God later sent Muhammad as the final messenger, confirming the message of Jesus, so a Muslim follows Jesus by following the last revelation. Where Muslims differ from Christians is on whether Jesus is divine. If you are interested in that question, this book looks at it from the Bible, reason and history: https://african.byenah.com/en/content/7383",
-   "reply_ar": "بمعنى مهم: نعم. المسلمون يحبون عيسى عليه السلام ويؤمنون به نبيًا عظيمًا ومسيحًا، ويتبعون جوهر ما علّمه: عبادة الله الواحد وحده وطاعة أوامره. ويؤمنون أن الله أرسل بعده محمدًا خاتمًا للرسل مصدّقًا لرسالة عيسى، فالمسلم يتبع عيسى باتباع آخر الوحي. ويختلف المسلمون عن المسيحيين في مسألة ألوهيته، وإن كانت تهمّك فهذا الكتاب يبحثها من الكتاب المقدس والعقل والتاريخ (رابط «هل المسيح رب؟»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "fr-001",
-   "lang": "fr",
-   "question": "Comment devenir musulman ?",
-   "question_ar": "كيف أصبح مسلمًا؟",
-   "url": "https://fr.quora.com/Comment-devenir-musulman",
-   "topic": "كيف أصبح مسلمًا",
-   "book": "Précis utile pour le nouveau musulman",
-   "reply": "Devenir musulman est simple : il suffit de croire sincèrement et de prononcer l’attestation de foi : « J’atteste qu’il n’y a de divinité qu’Allah et j’atteste que Muhammad est le Messager d’Allah. » Aucune cérémonie n’est obligatoire, même si beaucoup aiment la prononcer dans une mosquée. Ensuite, on apprend progressivement : les piliers de la foi, la prière, puis le reste des pratiques, à son rythme. Ce petit guide gratuit, écrit pour le nouveau musulman, explique l’essentiel : https://african.byenah.com/fr/content/5216",
-   "reply_ar": "الدخول في الإسلام سهل: يكفي أن تؤمن صادقًا وتنطق بالشهادة: «أشهد أن لا إله إلا الله وأشهد أن محمدًا رسول الله». لا يُشترط أي احتفال، وإن كان كثيرون يحبون نطقها في مسجد. ثم يتعلم المسلم بالتدريج: أركان الإيمان، والصلاة، ثم بقية العبادات على قدر طاقته. وهذا الدليل المجاني المكتوب للمسلم الجديد يشرح الأساسيات (رابط «المختصر المفيد للمسلم الجديد»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "fr-002",
-   "lang": "fr",
-   "question": "Qui est le père de Jésus pour les musulmans ?",
-   "question_ar": "من أبو عيسى عند المسلمين؟",
-   "url": "https://fr.quora.com/Qui-est-le-p%C3%A8re-de-Jesus-pour-les-musulmans",
-   "topic": "المسيح في الإسلام",
-   "book": "Le Messie, Jésus fils de Marie Est-il Dieu ?",
-   "reply": "Pour les musulmans, Jésus (paix sur lui) n’a pas de père : il est né miraculeusement de la Vierge Marie, par la seule parole de Dieu « Sois ! ». Le Coran compare sa création à celle d’Adam, créé sans père ni mère. C’est pourquoi il est appelé « Jésus fils de Marie ». Les musulmans l’aiment et le respectent comme l’un des plus grands prophètes et le Messie, mais croient qu’il est un serviteur et messager de Dieu, et non Dieu ni fils de Dieu. Ce livre traite justement cette question : https://african.byenah.com/fr/content/7382",
-   "reply_ar": "عند المسلمين ليس لعيسى عليه السلام أب: وُلد بمعجزة من مريم العذراء بكلمة الله «كن». ويشبّه القرآن خلقه بخلق آدم الذي خُلق بلا أب ولا أم، ولهذا يُسمّى «عيسى ابن مريم». والمسلمون يحبونه ويوقّرونه من أعظم الأنبياء ويؤمنون أنه المسيح، لكنه عبد الله ورسوله، لا إله ولا ابن إله. وهذا الكتاب يتناول هذه المسألة (رابط «هل المسيح عيسى ابن مريم رب؟»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "fr-003",
-   "lang": "fr",
-   "question": "Est-ce que les musulmans croient-ils au retour de Jésus en fin du temps ?",
-   "question_ar": "هل يؤمن المسلمون بنزول عيسى في آخر الزمان؟",
-   "url": "https://fr.quora.com/Est-ce-que-les-musulmans-croient-tils-au-retour-de-J%C3%A9sus-en-fin-du-temps",
-   "topic": "المسيح في الإسلام",
-   "book": "Le vrai message de Jésus-Christ",
-   "reply": "Oui. Les musulmans croient que Jésus (paix sur lui) n’a pas été tué ni crucifié, mais que Dieu l’a élevé vers Lui, et qu’il redescendra avant la fin des temps. Selon les paroles authentiques du Prophète Muhammad, il viendra rétablir la justice, vaincre l’Antéchrist (le Dajjâl) et confirmer le message de l’unicité de Dieu. C’est l’un des grands signes de l’Heure. Pour découvrir ce que le Coran et la Bible disent de sa mission, ce livre est utile : https://african.byenah.com/fr/content/4247",
-   "reply_ar": "نعم. يؤمن المسلمون أن عيسى عليه السلام لم يُقتل ولم يُصلب، بل رفعه الله إليه، وأنه سينزل قبل آخر الزمان. وبحسب الأحاديث الصحيحة عن النبي محمد ﷺ يأتي ليقيم العدل ويقتل المسيح الدجال ويؤكد رسالة التوحيد، وهو من علامات الساعة الكبرى. ولمعرفة ما يقوله القرآن والكتاب المقدس عن رسالته فهذا الكتاب مفيد (رابط «الرسالة الحقيقية للمسيح»)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "fr-004",
-   "lang": "fr",
-   "question": "Quel conseil donneriez-vous à quelqu'un qui voudrait se convertir à l'Islam mais qui ne connaît pas de musulmans ?",
-   "question_ar": "بماذا تنصح شخصًا يريد الدخول في الإسلام لكنه لا يعرف مسلمين؟",
-   "url": "https://fr.quora.com/Quel-conseil-donneriez-vous-%C3%A0-quelquun-qui-voudrait-se-convertir-%C3%A0-lIslam-mais-qui-ne-conna%C3%AEt-pas-de-musulmans",
-   "topic": "كيف أصبح مسلمًا",
-   "book": "Petit guide illustré pour comprendre l'Islam",
-   "reply": "Bonne nouvelle : on n’a besoin de personne pour devenir musulman. Il suffit de croire et de prononcer sincèrement : « J’atteste qu’il n’y a de divinité qu’Allah et j’atteste que Muhammad est le Messager d’Allah », même seul chez soi. Ensuite : apprendre la prière pas à pas, lire une traduction du sens du Coran, et avancer progressivement. Pour bien comprendre les bases, ce petit guide illustré est un bon début : https://african.byenah.com/fr/content/4376 . Et si la personne souhaite parler à quelqu’un, notre équipe répond gratuitement sur WhatsApp : +966 56 168 0733.",
-   "reply_ar": "خبر سار: لا يحتاج أحد إلى وسيط ليصبح مسلمًا. يكفي أن يؤمن وينطق بصدق: «أشهد أن لا إله إلا الله وأشهد أن محمدًا رسول الله» ولو وحده في بيته. ثم: تعلّم الصلاة خطوة خطوة، وقراءة ترجمة معاني القرآن، والتدرج. ولفهم الأساسيات فهذا الدليل المصوّر بداية جيدة (رابط «الدليل المصور الموجز لفهم الإسلام»). وإن أراد التحدث مع أحد ففريقنا يجيب مجانًا على واتساب (رقم الجمعية)."
-  },
-  {
-   "week": "2026-10-27",
-   "platform": "quora",
-   "found": "2026-10-27",
-   "urgent": false,
-   "id": "fr-005",
-   "lang": "fr",
-   "question": "Qu'est-ce que l'islam pour vous ? Comment et pourquoi y avez-vous adhéré ?",
-   "question_ar": "ما الإسلام بالنسبة لكم؟ وكيف ولماذا اعتنقتموه؟",
-   "url": "https://fr.quora.com/Quest-ce-que-lislam-pour-vous-Comment-et-pourquoi-y-avez-vous-adh%C3%A9rer",
-   "topic": "تعريف عام بالإسلام",
-   "book": "Petit guide illustré pour comprendre l'Islam",
-   "reply": "L’islam, c’est se soumettre à Dieu, l’Unique, le Créateur de toute chose, en L’adorant Lui seul, comme l’ont enseigné tous les prophètes, d’Abraham à Moïse, Jésus et Muhammad (paix sur eux). C’est une religion qui répond aux grandes questions (qui m’a créé, et pourquoi ?), qui donne un sens à la vie et une paix intérieure par la prière et le rappel de Dieu. Pour ceux qui veulent comprendre l’islam à partir de ses sources, ce petit guide illustré présente les preuves et les principes de base : https://african.byenah.com/fr/content/4376",
-   "reply_ar": "الإسلام هو الاستسلام لله الواحد خالق كل شيء، وعبادته وحده، كما علّم كل الأنبياء من إبراهيم إلى موسى وعيسى ومحمد عليهم السلام. وهو دين يجيب عن الأسئلة الكبرى (من خلقني ولماذا؟)، ويمنح الحياة معنى، ويهب القلب طمأنينة بالصلاة وذكر الله. ولمن يريد فهم الإسلام من مصادره فهذا الدليل المصوّر يعرض الأدلة والمبادئ الأساسية (رابط «الدليل المصور الموجز لفهم الإسلام»)."
-  }
- ],
+ "weeks": [],
+ "items": [],
  "site": {
   "name": "مكتبة البيت الأفريقي",
   "url": "https://african.byenah.com/ar",
@@ -740,5 +472,8 @@
     "native": "N'Ko"
    }
   ]
- }
+ },
+ "excluded_sources": [
+  "Quora"
+ ]
 }
